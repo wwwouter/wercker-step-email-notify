@@ -8,10 +8,13 @@ properties:
   to:
     type: string
     required: true
-  subject:
+  failed-subject:
     type: string
-    required: true
-  body:
+  passed-subject:
+    type: string
+  failed-body:
+    type: string
+  passed-body:
     type: string
   username:
     type: string
@@ -22,3 +25,6 @@ properties:
   host:
     type: string
     required: true
+  on:
+    type: string
+    default: always
