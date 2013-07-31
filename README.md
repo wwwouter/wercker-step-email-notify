@@ -25,14 +25,14 @@ Send an email message
 
 Add EMAIL_PASSWORD as deploy target or application environment variable.
 
-```
-build:
-    after-steps:
-        - wouter/email-notify:
-            from: alerts@company.com
-            to: admin@company.com
-            username: username
-            password: $EMAIL_PASSWORD
-            host: smtp.gmail.com:587
 
-```
+    build:
+        after-steps:
+            - wouter/email-notify:
+                from: alerts@company.com
+                to: admin@company.com
+                username: username
+                password: $EMAIL_PASSWORD
+                host: smtp.gmail.com:587
+
+
