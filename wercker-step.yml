@@ -2,7 +2,7 @@ name: email-notify
 version: 0.0.2
 description: Send an email message
 keywords:
-  - notify
+  - notification
   - email
 properties:
   from:
