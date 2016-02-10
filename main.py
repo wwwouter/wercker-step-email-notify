@@ -1,8 +1,10 @@
 import smtplib
 import sys
 
+from __future__ import print_function
+
 if len(sys.argv) < 8 :
-  print 'There should be 8 arguments'
+  print("There should be 8 arguments")
   sys.exit(1)
 
 fromaddr = str(sys.argv[1])

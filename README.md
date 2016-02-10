@@ -28,7 +28,7 @@ Add EMAIL_PASSWORD as deploy target or application environment variable.
 
     build:
         after-steps:
-            - wouter/email-notify:
+            - 0nkery/email-notify:
                 from: alerts@company.com
                 to: admin@company.com
                 username: username
